@@ -1,0 +1,260 @@
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#page1
+{
+    height:100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+#upper-body
+{
+    background-color: black;
+    height:95%;
+    width:95%;
+    
+}
+
+#nav
+{
+    height:10%;
+    width:100%;
+    background-color:black;
+    border-bottom: 2px solid white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+}
+
+
+#middle
+{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    gap:30px;
+    color:white;
+    text-transform: uppercase;
+}
+
+#nav img
+{
+    height:80px;
+    width:130px
+}
+   
+
+#right 
+{
+display: flex;
+ gap: 30px;
+
+}
+
+
+#right h3
+{
+ color:white;
+ text-transform: uppercase;
+}
+
+#right button
+{
+    border-radius: 20px;
+    background-color:transparent;
+    color:white;
+    
+}
+
+
+#container
+{
+    height:60%;
+    width:100%;
+    display:flex;
+    
+   
+}
+
+
+#left-part
+{
+    height:100%;
+    width:50%;
+    padding: 60px 60px;
+    position: relative;
+    border-bottom: 2px solid white;
+    margin-bottom: -10px; /* Adjust the value as needed */
+    /* background-color:red; */
+}
+
+#left-part:before {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Adjust the value to match the negative margin value */
+    left: 0;
+    width: 100%;
+    border-bottom: 10px solid white; /* Same as the border-bottom value */
+    z-index: -1;
+}
+
+
+
+
+#right-part
+{    
+    
+    height:100%;
+    width:50%;
+    padding:50px  70px;
+    position: relative;
+  
+    /* background-color:red; */
+}
+#right-part-text
+    {
+        position:absolute;
+        top:50px;
+        left:75px;
+        width:50%;
+        }
+
+
+        #right-part button{
+            background-color:transparent;
+            border-radius: 30px;
+            color:white;
+            top:10px;
+            width:67%;
+            height:10%
+        }
+
+        
+
+#right-part h4{
+    color:white;
+    margin:0;
+    line-height:1.5;
+
+}
+
+
+#left-part h1{
+   
+    font-size: 100px;
+
+    line-height:130px;
+    color:white
+}
+
+#right-part img
+{
+    height:100%;
+    width:70%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+
+#left-part #image1{
+  height:100px;
+  width:100px;
+  border-radius: 50px;
+
+}
+
+#left-part #image2{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+
+    
+  }
+#left-part #image3{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+
+  }
+
+
+  #lower-body
+  {
+    display:flex;
+    justify-content: space-around;
+    height:40%;
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    padding:20px 0px;
+    }
+
+    #lower-body h4{
+        color:white;
+        
+    }
+
+
+#page2{
+    background-color: white;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: end;
+    justify-content:center;
+}
+
+#upper-body2
+{
+    background-color: black;
+    height: 97%;
+    width:95%;
+    display:flex;
+    align-items: center;
+    justify-content:center; 
+    gap:10px;
+    
+}
+  
+
+#box1{
+    height:30%;
+    width:16%;
+    background-color:rgb(253, 94, 9) ;
+    border-radius:10px;
+    text-align: center;
+    
+}
+
+#box2{
+    height:30%;
+    width:16%;
+    background-color: #E0E0E0;
+    border-radius:10px
+}
+
+
+#box3{
+    height:30%;
+    width:16%;
+    background-color: #FDC959;  border-radius:10px
+}
+    
